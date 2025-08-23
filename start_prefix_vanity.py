@@ -18,7 +18,7 @@ project_folder = os.path.dirname(os.path.realpath(__file__))
 print(project_folder)    
 
 
-range_val = 42
+range_val = 46
 
 for num in range(60):
     start_time = time.monotonic()
@@ -48,8 +48,8 @@ for num in range(60):
     time.sleep(100)
     print(f"100 Seconds sleep time completed!!")
 
-    increment_val = (int(increment_val,16) + 2**42-1)%n
-    #increment_val = (int(increment_val,16) + random.randint(2**121,2**122) -1)%n
+    #increment_val = (int(increment_val,16) + 2**42-1)%n
+    increment_val = (int(increment_val,16) + random.randint(2**121,2**122) -1)%n
     increment_val = hex(increment_val)[2:].upper()
     # if keyboard.is_pressed('q'):
     #     break
