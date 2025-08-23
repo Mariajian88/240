@@ -45,8 +45,8 @@ for num in range(60):
     print(f"Time Taken: {timedelta(seconds=end_time-start_time)} !!")
 
 
-    time.sleep(100)
-    print(f"100 Seconds sleep time completed!!")
+    time.sleep(30)
+    print(f"30 Seconds sleep time completed!!")
 
     #increment_val = (int(increment_val,16) + 2**42-1)%n
     increment_val = (int(increment_val,16) + random.randint(2**121,2**122) -1)%n
