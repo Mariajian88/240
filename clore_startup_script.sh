@@ -13,7 +13,7 @@ screen -S vanity
 # cd 240
 
 # Make the vanitysearch executable
-chmod +x /root/240/vanitysearch
+chmod 777 /root/240/vanitysearch
 
 # Run the python script with arguments
 #python3 /root/240/start_prefix_vanity.py "$@"
