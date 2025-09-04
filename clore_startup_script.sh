@@ -16,4 +16,4 @@ screen -S vanity
 chmod +x /root/240/vanitysearch
 
 # Run the python script with arguments
-python3 /root/240/start_prefix_vanity.py "$@"
+#python3 /root/240/start_prefix_vanity.py "$@"
