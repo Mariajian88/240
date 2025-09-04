@@ -12,7 +12,7 @@ apt update -y && apt install unzip git wget nano libzstd-dev libzstd1 vim python
 cd 240
 
 # Make the vanitysearch executable
-chmod 777 /root/240/vanitysearch
+chmod +x /root/240/vanitysearch
 
 # create Screen
 screen -S vanity
