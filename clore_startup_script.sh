@@ -6,14 +6,16 @@ apt update -y && apt install unzip git wget nano libzstd-dev libzstd1 vim python
 # # Clone the repository
 # git clone https://github.com/Mariajian88/240.git
 
-# create Screen
-screen -S vanity
+
 
 # # Navigate to the cloned repository
 cd 240
 
 # Make the vanitysearch executable
 chmod 777 /root/240/vanitysearch
+
+# create Screen
+screen -S vanity
 
 # Run the python script with arguments
 #python3 /root/240/start_prefix_vanity.py "$@"
