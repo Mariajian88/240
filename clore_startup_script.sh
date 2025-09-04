@@ -9,7 +9,7 @@ apt update -y && apt install unzip git wget nano libzstd-dev libzstd1 vim python
 
 
 # # Navigate to the cloned repository
-cd 240
+#cd 240
 
 # Make the vanitysearch executable
 chmod +x /root/240/vanitysearch
