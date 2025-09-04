@@ -49,7 +49,7 @@ for num in range(100):
     print(f"30 Seconds sleep time completed!!")
 
     #increment_val = (int(increment_val,16) + 2**42-1)%n
-    increment_val = (int(increment_val,16) + random.randint(2**121,2**122) -1)%n
+    increment_val = (int(increment_val,16) + random.randint(2**95,2**96) -1)%n
     increment_val = hex(increment_val)[2:].upper()
     # if keyboard.is_pressed('q'):
     #     break
