@@ -20,7 +20,7 @@ print(project_folder)
 
 range_val = 46
 
-for num in range(100):
+for num in range(300):
     start_time = time.monotonic()
     print(f"Program executed with argument: {increment_val}")
     out_filename = f"240_{increment_val}_{range_val}.txt"
